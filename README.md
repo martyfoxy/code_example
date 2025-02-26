@@ -1,8 +1,10 @@
-Небольшой проект с примерами моего кода. ТЗ взято из одного из тестовых заданий, которые я делал:
+A small project with example of my code. Actually it's pretty old and today I'd rewrite some pieces. 
 
-"Броня работает по логике процентов: 100 брони пропускает 0 урона, 25 брони пропускает 75% урона.
-Вампиризм работает так же. Если игрок нанес врагу 50 урона, то при вапиризме в 50, игрок восстанавливает 25 жизни.
-Кнопка “игра с бафами” делает перезапуск игры (восстанавливает все статы игроков в изначальные значения), и случайным образом добавляет игрокам бафы (согласно описанию в data.json)
-Кнопка “игра без бафов“, делает такой же перезапуск, но без добавления бафов."
+While looking for a job, I got a technical assignment from a company that said:
 
-Их сторонних плагинов использовал только Zenject
+“Armor works on the logic of percentages: 100 armor lets 0 damage through, 25 armor lets 75% damage through.
+Vampirism works the same way. If a player has dealt 50 damage to an enemy, a vampirism of 50 restores 25 life to the player.
+The “play with buffs” button restarts the game (restores all player stats to their original values), and randomly adds buffs to players (as described in data.json).
+The button “game without buffs”, does the same restart, but without adding buffs.”
+
+I used Zenject as a DI-container
